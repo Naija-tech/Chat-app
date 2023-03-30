@@ -1,0 +1,19 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A team work to create a chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naija-tech/Chat-app.git"
+  },
+  "author": "All",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naija-tech/Chat-app/issues"
+  },
+  "homepage": "https://github.com/Naija-tech/Chat-app#readme"
+}
