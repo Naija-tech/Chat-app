@@ -10,3 +10,7 @@ We're using node Js with dependencies which are socket and express
 
 We would be using vanilla css and Js for the edits., Questions can be entered in comments 
 And the group.
+
+# Hierarchy
+Image below is the Hierarchy for the website.
+![image hierarchy](https://ibb.co/cwRG0Wd)
