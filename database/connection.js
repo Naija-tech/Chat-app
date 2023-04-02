@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const DB = process.env.DATABASE_URL;
+console.log(DB);
 
 class DbClient {
   constructor() {
