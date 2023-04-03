@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="chatstyle.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><h1><span class="logo-span-1">Chat</span><span class="logo-span-2">App</span></h1></div>    
+        <div class="">
+            <ul class="nav-list">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href=""><i class="fas fa-plus" title="Join a chatroom"></i></a></li>
+            </ul>
+        </div>
+        <div class="toggle_btn">
+         <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="dropdown_menu">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href=""><i class="fas fa-plus" title="Join a chatroom"></i></a></li>
+        </div>
+        </nav>
+    
+        
+    <div class="app">
+        <div class="screen join-screen ">
+            <div class="form">
+                <h2>Join Chatroom</h2>
+                <div class="form-input">
+                    <label for="username">Username</label>
+                    <input type="text" id="username">
+                </div>
+                <div class="form-input">
+                    <label for="password">Six digit code</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="form-input">
+
+                <button class="button-17" id="join-user">Join</button>
+                </div>
+            </div>
+        </div>
+        <div class="screen chat-screen active">
+            <div class="header">
+                <div class="chatroom_logo">Chatroom</div>
+                <button id="exit-chat">Exit</button>
+            </div>
+            <div class="messages">
+               <!--- Dummy-Message-->
+                <div class="message my-message">
+                    <div>
+                        <div class="name">You</div>
+                        <div class="text">Hi</div>
+                    </div>
+                </div>
+                <div class="update">
+                    John Doe joined the conversation
+                </div>
+                <div class="message other-message">
+                    <div>
+                        <div class="name">John Doe</div>
+                        <div class="text">Hi</div>
+                    </div>
+                </div>
+            </div>
+            <div class="typebox">
+                <input type="text" id="message-input">
+                <button id="send-message">Send</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
